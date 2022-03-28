@@ -16,16 +16,11 @@ function App() {
 
     console.log('apppppppppp')
     const [count, setCount] = useState(0)
-    // const globalState = useRef();
-    // const globalState =  React.createRef();
     const state: StateAndProps = {
         manager: new Manager(),
         globalState: {}
     };
-    const props = {a: 1}
     const change = () => {
-        // dispatch({type: 'ONE', payload: 2})
-        // setCount((count) => (count + 1));
         console.log('------>', state)
     }
     return (

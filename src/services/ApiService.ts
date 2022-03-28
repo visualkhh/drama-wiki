@@ -5,4 +5,7 @@ export class ApiService {
     say() {
         console.log('ApiService say');
     }
+    get(s: string) {
+        return s + '----------------';
+    }
 }
